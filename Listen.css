@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Titillium+Web:wght@200&display=swap');
+
+  body{
+    background-color: antiquewhite;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    min-height: 75vh;
+   font-family: sans-serif;
+   display: flex;
+   margin: 20px auto;
+   width: 80%;
+   border-radius: 12px;
+   padding: 30px;
+   background-image: url(./Khabib.jpg)
+       
+}
+nav{
+ font-family: sans-serif;
+
+}
+nav ul{
+    display: flex;
+list-style: none;
+background-color: black;
+color: white;
+}
+nav ul li{
+    padding: 0% 22px;
+}
+.run img{
+    width: 44px;
+    padding: 0% 8px;
+}
+.run{
+    display: flex;
+    align-items: center;
+    font-weight:bold ;
+    font-size: 1.0rem;
+    
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+   
+}
+.icons{
+    margin-top: 13px;
+}
+
+#mybar{
+    width: 90vh;
+    cursor: pointer;
+   
+}
+
+
+.Audiolist{
+    margin-top: 34px;
+
+    
+}
+
+
+
+.Audioitem {
+  height: 40px;
+display: flex;
+  background-color: white;
+  width: 300px;  
+  color: black;
+  margin: 9px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+}
+.Audioitem img{
+    height: 40px;
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 20px;
+    
+}
+.timestap{
+    margin: 0 23px;
+
+}
+.timestap i{
+    cursor: pointer;
+}
+.Audioinfo{
+    position: absolute;
+    left: 53vh;
+    font-family: 'varela Round', sans-serif;
+
+}
+.Audioinfo img{
+    opacity:0;
+    transition: opacity 1s ease-in;
+}
